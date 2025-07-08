@@ -8,7 +8,7 @@ env UPSTREAM;
 
 http {
 
-    log_format evn_format "... $env_NEW_VARIABLE ";
+    log_format env_format "... $env_NEW_VARIABLE ";
     
     server {
     
